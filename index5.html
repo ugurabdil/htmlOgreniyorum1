@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .myDiv {
+        text-align: center;
+      
+        width: 100%;
+        height: 40px;
+        background-color: orange;
+      }
+
+      .mydive1 {
+        width: 700px;
+        background-color: orange;
+        margin: 1px 400px; }
+    </style>
+  </head>
+  <body>
+    <div class="myDiv">
+      <h1>Lütfen Formu Eksiksiz Doldurunuz!</h1>
+    
+    </div>
+    <br />
+    <br />
+    <div class="mydive1">
+      <form>
+        <table>
+            <h2>Profil Fotoğrafı</h2>
+            <hr style="width:30%;text-align:left;margin-left:0"  />
+            <tr>
+            <td><b>Profil Fotoğrafı yükleyiniz!</b></td>
+            <td><input type="file" /></td>
+          </tr>
+          
+        </table>
+      <hr>
+
+        <table>
+          <h2>Hesap Bilgileri</h2>
+          <hr style="width:30%;text-align:left;margin-left:0" />
+          <tr>
+            <td><b>Kullanıcı adı:</b></td>
+            <td>
+              <input type="text" placeholder="Kullanıcı adı giriniz..." />
+            </td>
+          </tr>
+          <tr>
+            <td><b>Email Adresi:</b></td>
+            <td>
+              <input type="email" placeholder="Email adresinizi giriniz..." />
+            </td>
+          </tr>
+
+          <tr>
+            <td><b>Şifre:</b></td>
+            <td>
+              <input type="password" placeholder="Şifrenizi giriniz..." />
+            </td>
+          </tr>
+        </table>
+        <hr>
+
+        <table>
+          <h2>Kişisel Bilgiler</h2>
+          <hr style="width:30%;text-align:left;margin-left:0" />
+          <tr>
+            <td><b>Adınız:</b></td>
+            <td><input type="text" placeholder="Adınızı giriniz..." /></td>
+          </tr>
+          <tr>
+            <td><b>Soyadınız:</b></td>
+            <td><input type="text" placeholder="Soyadınızı giriniz..." /></td>
+          </tr>
+          <tr>
+            <td><b>Yaşınız:</b></td>
+            <td><input type="text" placeholder="Yaşınızı giriniz..." /></td>
+          </tr>
+          <tr>
+            <td><b>Doğum Tarihi:</b></td>
+            <td><input type="date" /></td>
+          </tr>
+          <tr>
+            <td><b>Şehriniz:</b></td>
+            <td colspan="3">
+              <select name="seçiniz" id="SehirSelect">
+                <option value=""><i>Seçiniz</i></option>
+                <option value="">Ankara</option>
+                <option value="">İstanbul</option>
+                <option value="">Adana</option>
+                <option value="">Kocaeli</option>
+                <option value="">Diğer</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><b>Cinsiyet:</b></td>
+            <td>
+              <input type="radio" name="cinsiyetRadio" />Erkek
+              <input type="radio" name="cinsiyetRadio" />Kadın
+              <input type="radio" name="cinsiyetRadio" />Belirtmek İstemiyorum
+            </td>
+          </tr>
+        </table>
+        <hr>
+        <table>
+          <h2>Özel Bilgiler</h2>
+          <hr style="width:30%;text-align:left;margin-left:0" />
+          <tr>
+            <td><h4>Hobiler:</h4></td>
+            <td>
+              
+              <input type="checkbox" name="Hobiler" />Kitap okumak
+              <input type="checkbox" name="Hobiler" />Sinemaya gitmek
+              <input type="checkbox" name="Hobiler" />Bisiklet sürmek
+              <input type="checkbox" name="hobiler" />Spor yapmak
+              <input type="checkbox" name="hobiler" />Diğer
+              
+            </td>
+          </tr>
+          <tr>
+            <td><b>Mesajınız:</b></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <textarea
+                name="kullanıcıMesajı"
+                id=""
+                cols="40"
+                rows="10"
+                placeholder="Mesajınızı Giriniz"
+              ></textarea>
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2">
+              <input type="submit" /> <input type="reset" value="Temizle" />
+            </td>
+          </tr>
+        
+        </table>
+        
+      </form>
+    </div>
+  </body>
+</html>
